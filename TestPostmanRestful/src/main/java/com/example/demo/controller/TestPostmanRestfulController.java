@@ -25,6 +25,7 @@ public class TestPostmanRestfulController {
 		return msg;
 	}
 	
+	//전체 상품 조회
 	@GetMapping("/product")
 	public List<Product> getAll(){
 		return pm.getList();
